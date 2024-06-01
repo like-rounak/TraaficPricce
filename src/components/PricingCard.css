@@ -1,0 +1,99 @@
+.pricing-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  width: 600px;
+  margin: 20px auto;
+  font-family: 'Manrope', sans-serif;
+}
+
+.pricing-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: hsl(227, 35%, 25%);
+}
+
+.pricing-card p {
+  color: hsl(225, 20%, 60%);
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pageviews,{
+  color: hsl(225, 20%, 60%);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price {
+  color: #000000; /* Dark black */
+  font-size: 24px; /* Increased font size */
+  font-weight: bold; /* Make the font bold */
+}
+
+.features-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features {
+  list-style: none;
+}
+
+.features li {
+  color: #8e8686; /* Light grey */
+}
+
+.features li::before {
+  content: "✔️";
+  margin-right: 5px;
+  color: #17eac7;
+}
+
+.trial-button {
+  border: none;
+  border-radius: 25px;
+  padding: 0 10px; /* Remove vertical padding */
+  background-color: #00008b; /* Dark blue */
+  color: white;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size */
+  line-height: 1; /* Adjust line height */
+  height: 25px; /* Set a fixed height */
+  margin-top: 30px; /* Move the button lower */
+  margin-right: 20px; /* Add this line to move the button to the left */
+}
+
+.trial-button:hover {
+  background-color: hsl(227, 35%, 35%);
+}
+
+/* ReactSlider custom styles */
+.horizontal-slider {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.example-thumb {
+  height: 20px;
+  width: 20px;
+  background-color: #17eac7; /* Color of the tick */
+  border-radius: 50%;
+  cursor: grab;
+  top: -7px; /* Adjust this value to move the thumb up or down */
+}
+
+.example-track {
+  background: hsl(174, 77%, 80%);
+  height: 8px;
+  border-radius: 4px; /* Half of the height to make it fully rounded */
+}
