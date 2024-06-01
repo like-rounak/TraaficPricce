@@ -1,3 +1,5 @@
+![image](https://github.com/like-rounak/TraaficPricce/assets/78261692/746204eb-98ee-4a66-af25-c04c9ca90dae)
+
 # Pricing Component
 
 This is a simple traffic-based pricing component built with React. It features a slider to adjust the page views and a toggle switch for monthly or yearly billing with a discount for yearly billing.
